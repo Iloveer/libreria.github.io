@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>THE BOOKSHOP</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+          <div class="yuo">  <h2>LA CASA DEL<span class="txtRojo"> LIBRO</span></h2></div>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+                <a href="#servicios" onclick="seleccionar()">Servicios</a>
+                <a href="#comodidades" onclick="seleccionar()">Comodidades</a>
+                <a href="#galeria" onclick="seleccionar()">Galería</a>
+                <a href="#equipo" onclick="seleccionar()">Equipo</a>
+                <a href="#contacto" onclick="seleccionar()">Contactos</a>
+
+                
+            </nav>
+            <div class="redes">
+                <a href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Finiciarsesion"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header> 
+        
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>"NO ES SOBRE LAS<span class="txtRojo">IDEAS</span></h2>
+                <p>SINO SOBRE HACER QUE ESTAS SE VUELVAN REALIDAD"</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="fondo">
+                <span class="icono-cerrar"><i class="fa-solid fa-xmark"></i></span>
+    
+
+            </div>
+            
+            <div class="opciones">
+                <div class="opcion"><a href="https://www.casadellibro.com/libros/literatura/narrativa-fantastica/121012000"> 01.FANTACIAS</a>
+                    
+                </div>
+                <div class="opcion"><a href="https://www.casadellibro.com/libros/historia/historia-universal/115007000">02.HISTORIAS</a>
+                    
+                </div>
+                <div class="opcion"><a href="https://www.casadellibro.com/libros/literatura/novela-de-terror/121010000"> 03.TERROR</a>
+                   
+                </div>
+                <div class="opcion"><a href="https://www.casadellibro.com/libros/literatura/narrativa-de-humor/121009000">04.COMEDIA</a>
+                   
+                   
+                </div>
+                <div class="opcion"><a href="https://www.casadellibro.com/libros/literatura/novela-romantica-y-erotica/novela-romantica/121015002"> 05.ROMANCE</a>
+                   
+                </div>
+                <div class="opcion"><a href="https://www.casadellibro.com/libros/literatura/narrativa-fantastica/121012000">06.FICCION</a>
+                    
+                </div>
+                <div class="opcion"><a href="https://www.casadellibro.com/libros/comics/manga/411006000"> 07.MANGA</a>
+                   
+                </div>
+                <div class="opcion"><a href="https://www.casadellibro.com/libros/comics/411000000">08.comics</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/img3.jpg" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Lo mas importante para nosotros es tu satisfacción. Contactanos y cuéntanos cómo podemos mejora tu experiencia</p>
+                <p>Gracias por adquirir nuestros productos. Esperamos que tu experiancia con nosotros sea extraordinaria.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">LIBROS</span> INTERESANTES
+                </span>
+                <h2>LEE <span class="txtRojo">GRATIS</span> HOY!</h2>
+            </div>
+            <div class="col2">
+                <button>PASE LIBRE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">LA MEJOR EXPERIENCIA</span>
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial">La calidad en un producto o servicio no es lo que tu le pones...sino lo que el cliente obtiene.</p>
+                    <p> El servicio al cliente no es un dapartamento es una actitud. <br>
+                        Un gran servicio al cliente no significa que el cliente siempre tiene la razón, sino que siempre se le respeta.
+                    </p>
+                </div>
+                <div class="col">
+                    <img src="img/img2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-walking"></i>
+                        <h3><span class="txtRojo">Buena  </span> atención</h3>
+                        <p>La buena atención  no es lo que das, sino lo que el cliente recibe.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-book"></i>
+                        <h3><span class="txtRojo">Clases </span> de lectura</h3>
+                        <p>Un buen libro no es aquel que piensa por ti, sino aquel que te hace pensar</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        <h3><span class="txtRojo">Clases </span> de Comprención</h3>
+                        <p>Para comprender a cualquier persona se nesecita afinidad, simpoatia y comunicación </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <h3><span class="txtRojo">Compra</span> de libros</h3>
+                        <p>Sino puedes dejar de penasr en ellos.. ¡COMPRALOS!</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-gift"></i>
+                        <h3><span class="txtRojo">Promocion </span> o ofertas </h3>
+                        <p>"la mejor frase del mundo está en la oferta"</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-wifi"></i>
+                        <h3><span class="txtRojo">Zona </span> de Internet</h3>
+                        <p>" El internet es mas que una tecnolia. Es un medio de comunicación.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- SECCION COMODIDADES -->
+    <section id="comodidades" class="comodidades">
+        <div class="fila">
+            <div class="col">
+                <img src="./img/img6.jpg" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        03
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>COMODIDADES</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Una vida diferente comienza al final de tu zona de comodidad</p>
+                <ul>
+                    <li><span>ZONA DE TRANQUILIDAD</span>La perfecta tranquilidad interior consiste en tener una paz mental </li>
+                    <li><span>WIFI GRATIS</span> El internet es la herramiente más grande para cualquier artista en trener interación con cualquier tipo de público</li>
+                    <li><span>ESTACIONAMIENTO GRATIS</span> Estacionar en la calle ya no es una opción, por eso te ofrecemos estacionamiento</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="./img/img1.jpg" alt="">
+                </div>
+                
+                <div class="col">
+                    <img src="./img/img4.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="./img/img2.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/img8.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/img6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>EQUIPO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/marcos.jpg" alt="">
+                    <div class="info">
+                        <h2>MARCOS</h2>
+                        <p>Profecinal en lectura- Encargado de area de comprención </p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/pa.jpg" alt="">
+                    <div class="info">
+                        <h2>PATRICIA</h2>
+                        <p>Profecional en Comunicación - Encargada de area de venta</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/juan.jpg" alt="">
+                    <div class="info">
+                        <h2>JUAN</h2>
+                        <p>Profeccional en Escritura de libro- Encargado de los libros</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Email">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Nombre">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa el Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Avenida Morro 255
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    2664 - 456788
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                    Lunes a Sábado, 8:00h - 24:00h
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="info">
+            <p>2023 - <span class="txtRojo">THE BOOKSHOP</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="java.js"></script>
+    
+</body>
+</html>
